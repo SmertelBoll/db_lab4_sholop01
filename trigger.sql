@@ -10,7 +10,7 @@ $$
    BEGIN 
       UPDATE Artist
       SET
-		   artist_date = now()
+		   artist_date = CURRENT_TIMESTAMP(0)
       WHERE 
          artist.artist_id = NEW.artist_id;
       RETURN NULL;

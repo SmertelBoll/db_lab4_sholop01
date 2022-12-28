@@ -14,4 +14,5 @@ AS $$
 $$
 
 SELECT country_points('Ukraine')
+SELECT * FROM artist
 SELECT country_points('Greece')
